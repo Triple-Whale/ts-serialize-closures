@@ -1,5 +1,5 @@
 {
-  "name": "@tw/ts-closure-transform",
+  "name": "@triplewhale/ts-closure-transform",
   "version": "0.1.7",
   "description": "Rewrites functions to include a '__closure' property, suitable for function serialization.",
   "main": "dist/index.js",
@@ -38,5 +38,8 @@
     "mocha": "^10.2.0",
     "ts-node": "^10.9.2",
     "typescript": "5.3.3"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
